@@ -1,6 +1,6 @@
 package ru.mishaev.max;
 
-import java.util.Scanner;
+//import java.util.Scanner;
 
 public class Basket {
     private String[] products = {"Молоко", "Хлеб", "Гречневая крупа"};
