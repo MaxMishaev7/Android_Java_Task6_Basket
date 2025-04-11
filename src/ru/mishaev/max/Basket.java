@@ -13,7 +13,7 @@ public class Basket {
             int productNum = Integer.parseInt(tempArray[0]) - 1;
             int productQty = Integer.parseInt(tempArray[1]);
             if (productNum >= 0 && productNum < products.length) {
-                quantity[productNum] = productQty;
+                quantity[productNum] += productQty;
             } else {
                 System.out.println("Такого номера продукта нет в нашем магазине\n");
             }
@@ -29,7 +29,7 @@ public class Basket {
         }
     }
 
-    public void printBusket() {
+    public void printBasket() {
         System.out.println("\nВаша корзина:");
         int qtyZeroCount = 0;
         for (int index = 0; index < products.length; index++) {

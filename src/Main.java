@@ -17,6 +17,6 @@ public class Main {
             }
         }
         scan.close();
-        basket.printBusket();
+        basket.printBasket();
     }
 }
